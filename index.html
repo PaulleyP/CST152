@@ -14,6 +14,7 @@
             <li><a href="page4/index.html">Page 4</a></li>
             <li><a href="page5/index.html">Page 5</a></li>
         </ul>
+        <hr>
         <table border="1" bgcolor="#eee" cellpadding="5" cellspacing="1">
             <thead>
                 <tr>
@@ -67,6 +68,7 @@
                 </tr>
             </tbody>
         </table>
+        <hr>
         <svg xmlns="http://www.w3.org/2000/svg">
             <rect x="10" y="10" width="300" height="300" fill="green"/>
             <circle cx="35" cy="120" r="20" stroke="red" fill="transparent" stroke-width="5"/>
@@ -76,5 +78,66 @@
         <a href="https://unsplash.com/photos/hlKe_8fv8R0" target="_blank"><img src="images/img2.jpg" alt="cityscape" width="300"></a>
         <a href="https://unsplash.com/photos/nX0NgrGEwEc" target="_blank"><img src="images/img3.jpg" alt="cityscape" width="300"></a>
         <a href="https://unsplash.com/photos/zX4y8d7_uF0" target="_blank"><img src="images/img4.jpg" alt="cityscape" width="300"></a>
+        <hr>
+        <form action="https://www.example.com" method="POST">
+            <fieldset>
+                <legend><strong>Sign Up</strong></legend>
+                <p><strong>Account Information</strong></p>
+                <label for="username">Username:</label>
+                <br>
+                <input type="text" name="username" id="username" placeholder="Enter a username" required minlength="5" maxlength="10">
+                <br>
+                <label for="password">Password:</label>
+                <br>
+                <input type="password" name="password" id="password" placeholder="Enter a password" required minlength="10" maxlength="15">
+                <br>
+                <label for="email">Email:</label>
+                <br>
+                <input type="email" name="email" id="email" placeholder="Enter an email" required>
+                <br>
+                <p><strong>Personal Information</strong></p>
+                <label for="first-name">First Name:</label>
+                <br>
+                <input type="text" name="first-name" id="first-name" placeholder="Enter your first name">
+                <br>
+                <label for="last-name">Last Name:</label>
+                <br>
+                <input type="text" name="last-name" id="last-name" placeholder="Enter your last name">
+                <br>
+                <label for="gender">Gender:</label>
+                <br>
+                <select name="gender" id="gender">
+                    <option value="">--Select gender--</option>
+                    <option value="male">Male</option>
+                    <option value="female">Female</option>
+                    <option value="other">Other</option>
+                </select>
+                <br>
+                <p><strong>Preferences</strong></p>
+                <label for="email-pref">Emails:</label>
+                <br>
+                <input type="radio" name="email-pref" id="email-pref" value="all" checked>All
+                <br>
+                <input type="radio" name="email-pref" id="email-pref" value="important">Important
+                <br>
+                <input type="radio" name="email-pref" id="email-pref" value="none">None
+                <br>
+                <label for="sign-in-pref">Sign In:</label>
+                <br>
+                <input type="checkbox" name="sign-in-pref" id="sign-in-pref" value="stay-signed-in" checked>Stay Signed In
+                <br>
+                <input type="checkbox" name="sign-in-pref" id="sign-in-pref" value="remember-username">Remember Username
+                <br>
+                <input type="checkbox" name="sign-in-pref" id="sign-in-pref" value="remember-username-password">Remember Username and Password
+                <br>
+                <p><strong>Extra</strong></p>
+                <label for="comments">Comments:</label>
+                <br>
+                <textarea name="comments" id="comments" cols="25" rows="5" placeholder="Enter any comments" maxlength="200"></textarea>
+                <br>
+                <input type="submit" value="Submit">
+                <input type="reset" value="Cancel">
+            </fieldset>
+        </form>
     </body>
 </html>
