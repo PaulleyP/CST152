@@ -1,0 +1,24 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+:root {
+    --dark: #272727;
+    --light: #F5F5F5;
+    --blue: #0080FF;
+    --purple: #8C198C;
+}
+
+* {
+    background-color: var(--dark);
+    font-family: 'roboto', sans-serif;
+    color: var(--light);
+}
+
+a {
+    color: var(--blue);
+    text-decoration: none;
+}
+
+a:hover {
+    color: var(--purple);
+    text-decoration: underline;
+}
