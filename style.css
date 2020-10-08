@@ -5,12 +5,16 @@
     --light: #F5F5F5;
     --blue: #0080FF;
     --purple: #8C198C;
+    --medium-blue: #428bca;
+    --light-green: #5cb85c;
+    --light-blue: #5bc0de;
+    --pale-red: #d9534f;
 }
 
 * {
     background-color: var(--dark);
     font-family: 'roboto', sans-serif;
-    color: var(--light);
+    color: var(--light-blue);
 }
 
 a {
@@ -21,4 +25,46 @@ a {
 a:hover {
     color: var(--purple);
     text-decoration: underline;
+}
+
+h1,
+h2,
+h3,
+h4,
+strong,
+hr,
+#cal {
+    color: var(--pale-red);
+}
+
+label,
+th,
+#end {
+    color: var(--medium-blue);
+}
+
+span,
+select,
+input,
+textarea,
+td {
+    color: var(--light-green);
+}
+
+input[type="submit"] {
+    background: var(--light-green);
+    color: var(--dark);
+}
+
+input[type="reset"] {
+    background: var(--pale-red);
+    color: var(--dark)
+}
+
+fieldset {
+    width: 200px;
+}
+
+table {
+    border-collapse: collapse;
 }

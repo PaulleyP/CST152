@@ -19,7 +19,7 @@
         <table border="1" bgcolor="#eee" cellpadding="5" cellspacing="1">
             <thead>
                 <tr>
-                    <th colspan="7">Calendar</th>
+                    <th colspan="7"><span id="cal">Calendar</span></th>
                 </tr>
                 <tr>
                     <th scope="col">Sunday</th>
@@ -65,7 +65,7 @@
                 <tr>
                     <td>29</td>
                     <td>31</td>
-                    <td colspan="4">End of the Month</td>
+                    <td colspan="4"><span id="end">End of the Month</span></td>
                 </tr>
             </tbody>
         </table>
@@ -117,19 +117,19 @@
                 <p><strong>Preferences</strong></p>
                 <label for="email-pref">Emails:</label>
                 <br>
-                <input type="radio" name="email-pref" id="email-pref" value="all" checked>All
+                <input type="radio" name="email-pref" id="email-pref" value="all" checked><span>All</span>
                 <br>
-                <input type="radio" name="email-pref" id="email-pref" value="important">Important
+                <input type="radio" name="email-pref" id="email-pref" value="important"><span>Important</span>
                 <br>
-                <input type="radio" name="email-pref" id="email-pref" value="none">None
+                <input type="radio" name="email-pref" id="email-pref" value="none"><span>None</span>
                 <br>
                 <label for="sign-in-pref">Sign In:</label>
                 <br>
-                <input type="checkbox" name="sign-in-pref" id="sign-in-pref" value="stay-signed-in" checked>Stay Signed In
+                <input type="checkbox" name="sign-in-pref" id="sign-in-pref" value="stay-signed-in" checked><span>Stay Signed In</span>
                 <br>
-                <input type="checkbox" name="sign-in-pref" id="sign-in-pref" value="remember-username">Remember Username
+                <input type="checkbox" name="sign-in-pref" id="sign-in-pref" value="remember-username"><span>Remember Username</span>
                 <br>
-                <input type="checkbox" name="sign-in-pref" id="sign-in-pref" value="remember-username-password">Remember Username and Password
+                <input type="checkbox" name="sign-in-pref" id="sign-in-pref" value="remember-username-password"><span>Remember Username and Password</span>
                 <br>
                 <p><strong>Extra</strong></p>
                 <label for="comments">Comments:</label>
