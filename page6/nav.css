@@ -1,0 +1,47 @@
+* {
+    background-color: #272727;
+    font-family: Arial, sans-serif;
+}
+
+#nav1 ul {
+    list-style: none;
+    width: 120px;
+    margin: 0;
+    padding: 0;
+}
+
+#nav1 a {
+    text-decoration: none;
+    padding: 5px;
+    display: block;
+    text-align: center;
+    background-color: lightgray;
+}
+
+#nav1 li:hover,
+#nav1 li:hover a {
+    background-color: green;
+    color: white;
+}
+
+#nav2 ul {
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+#nav2 a {
+    text-decoration: none;
+    padding: 5px;
+    background-color: lightgray;
+}
+
+#nav2 a:hover {
+    background-color: green;
+    color: white;
+}
+
+#nav2 li {
+    padding: 2px;
+}
