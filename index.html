@@ -4,150 +4,25 @@
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link rel="stylesheet" href="style.css">
-        <title>Homepage</title>
+        <title>Assignments</title>
     </head>
     <body>
-        <h1>Homepage</h1>
-        <p>This is the homepage of the website.</p>
+        <h1>CST152 Assignments</h1>
+        <p>Table of contents</p>
         <ul>
-            <li><a href="page2/index.html">Page 2</a></li>
-            <li><a href="page3/index.html">Page 3</a></li>
-            <li><a href="page4/index.html">Page 4</a></li>
-            <li><a href="page5/index.html">Page 5</a></li>
+            <li><a href="pages/resume.html">Assignment #1 - Resume</a></li>
+            <li><a href="pages/resume2.html">Assignment #2 - Resume v2</a></li>
+            <li><a href="https://github.com/PaulleyP/CST152" target="_blank">Assignment #3 - Website</a></li>
+            <li><a href="pages/table.html">Assignment #4 - Table</a></li>
+            <li><a href="pages/list-and-table.html">Assignment #4.2 - List and table</a></li>
+            <li><a href="pages/images.html">Assignment #5 - Images</a></li>
+            <li><a href="pages/form.html">Assignment #6 - Form</a></li>
+            <li><a href="pages/media.html">Assignment #7 - Media</a></li>
+            <li><a href="https://github.com/PaulleyP/CST152" target="_blank">Assignment #8 - Css</a></li>
+            <li><a href="https://github.com/PaulleyP/CST152" target="_blank">Assignment #9 - Colors</a></li>
+            <li><a href="pages/nav.html">Assignment #9.2 - Nav</a></li>
+            <li><a href="pages/product-landing-page.html">Assignment #10 - Product landing page</a></li>
+            <li><a href="pages/layout.html">Assignment #11 - Layout</a></li>
         </ul>
-        <hr>
-        <table border="1" bgcolor="#eee" cellpadding="5" cellspacing="1">
-            <thead>
-                <tr>
-                    <th colspan="7"><span id="cal">Calendar</span></th>
-                </tr>
-                <tr>
-                    <th scope="col">Sunday</th>
-                    <th scope="col">Monday</th>
-                    <th scope="col">Tuesday</th>
-                    <th scope="col">Wednesday</th>
-                    <th scope="col">Thursday</th>
-                    <th scope="col">Friday</th>
-                    <th scope="col">Saturday</th>
-                </tr>
-            </thead>
-            <tbody>
-                <tr>
-                    <td>1</td>
-                    <td rowspan="5"><a href="#">Class</a></td>
-                    <td>3</td>
-                    <td rowspan="4"><a href="#">Class</a></td>
-                    <td>5</td>
-                    <td>6</td>
-                    <td>7</td>
-                </tr>
-                <tr>
-                    <td>8</td>
-                    <td>10</td>
-                    <td>12</td>
-                    <td>13</td>
-                    <td>14</td>
-                </tr>
-                <tr>
-                    <td>15</td>
-                    <td>17</td>
-                    <td>19</td>
-                    <td>20</td>
-                    <td>21</td>
-                </tr>
-                <tr>
-                    <td>22</td>
-                    <td>24</td>
-                    <td>26</td>
-                    <td>27</td>
-                    <td>28</td>
-                </tr>
-                <tr>
-                    <td>29</td>
-                    <td>31</td>
-                    <td colspan="4"><span id="end">End of the Month</span></td>
-                </tr>
-            </tbody>
-        </table>
-        <hr>
-        <svg xmlns="http://www.w3.org/2000/svg">
-            <rect x="10" y="10" width="300" height="300" fill="green"/>
-            <circle cx="35" cy="120" r="20" stroke="red" fill="transparent" stroke-width="5"/>
-            <text x="20" y="125" fill="black" font-family="Sans-serif" font-size="1rem" font-weight="bold">SVG is cool!</text>
-        </svg>
-        <a href="https://unsplash.com/photos/gMxExzADxHc" target="_blank"><img src="images/img1.jpg" alt="cityscape" width="300"></a>
-        <a href="https://unsplash.com/photos/hlKe_8fv8R0" target="_blank"><img src="images/img2.jpg" alt="cityscape" width="300"></a>
-        <a href="https://unsplash.com/photos/nX0NgrGEwEc" target="_blank"><img src="images/img3.jpg" alt="cityscape" width="300"></a>
-        <a href="https://unsplash.com/photos/zX4y8d7_uF0" target="_blank"><img src="images/img4.jpg" alt="cityscape" width="300"></a>
-        <hr>
-        <form action="https://www.example.com" method="POST">
-            <fieldset>
-                <legend><strong>Sign Up</strong></legend>
-                <p><strong>Account Information</strong></p>
-                <label for="username">Username:</label>
-                <br>
-                <input type="text" name="username" id="username" placeholder="Enter a username" required minlength="5" maxlength="10">
-                <br>
-                <label for="password">Password:</label>
-                <br>
-                <input type="password" name="password" id="password" placeholder="Enter a password" required minlength="10" maxlength="15">
-                <br>
-                <label for="email">Email:</label>
-                <br>
-                <input type="email" name="email" id="email" placeholder="Enter an email" required>
-                <br>
-                <p><strong>Personal Information</strong></p>
-                <label for="first-name">First Name:</label>
-                <br>
-                <input type="text" name="first-name" id="first-name" placeholder="Enter your first name">
-                <br>
-                <label for="last-name">Last Name:</label>
-                <br>
-                <input type="text" name="last-name" id="last-name" placeholder="Enter your last name">
-                <br>
-                <label for="gender">Gender:</label>
-                <br>
-                <select name="gender" id="gender">
-                    <option value="">--Select gender--</option>
-                    <option value="male">Male</option>
-                    <option value="female">Female</option>
-                    <option value="other">Other</option>
-                </select>
-                <br>
-                <p><strong>Preferences</strong></p>
-                <label for="email-pref">Emails:</label>
-                <br>
-                <input type="radio" name="email-pref" id="email-pref" value="all" checked><span>All</span>
-                <br>
-                <input type="radio" name="email-pref" id="email-pref" value="important"><span>Important</span>
-                <br>
-                <input type="radio" name="email-pref" id="email-pref" value="none"><span>None</span>
-                <br>
-                <label for="sign-in-pref">Sign In:</label>
-                <br>
-                <input type="checkbox" name="sign-in-pref" id="sign-in-pref" value="stay-signed-in" checked><span>Stay Signed In</span>
-                <br>
-                <input type="checkbox" name="sign-in-pref" id="sign-in-pref" value="remember-username"><span>Remember Username</span>
-                <br>
-                <input type="checkbox" name="sign-in-pref" id="sign-in-pref" value="remember-username-password"><span>Remember Username and Password</span>
-                <br>
-                <p><strong>Extra</strong></p>
-                <label for="comments">Comments:</label>
-                <br>
-                <textarea name="comments" id="comments" cols="25" rows="5" placeholder="Enter any comments" maxlength="200"></textarea>
-                <br>
-                <input type="submit" value="Submit">
-                <input type="reset" value="Cancel">
-            </fieldset>
-        </form>
-        <hr>
-        <audio src="audios/audio1.mp3" controls></audio>
-        <br>
-        <video src="videos/video1.mp4" height="300" controls></video>
-        <br>
-        <iframe width="560" height="315" src="https://www.youtube.com/embed/Yw6u6YkTgQ4" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-        <br>
-        <h3>Difference between video and iframe</h3>
-        <p>The video tag is used when the video is being hosted natively and the iframe tag is used when the video is being hosted remotely.</p>
     </body>
 </html>

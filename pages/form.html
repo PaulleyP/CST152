@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="../style.css">
+        <title>Form</title>
+    </head>
+    <body>
+        <h1>Assignment #6 - Form</h1>
+        <p>Create a form that includes the specified requirements.</p>
+        <ul>
+            <li><a href="../index.html">Back to homepage</a></li>
+        </ul>
+        <hr>
+        <form action="https://www.example.com" method="POST">
+            <fieldset>
+                <legend><strong>Sign Up</strong></legend>
+                <p><strong>Account Information</strong></p>
+                <label for="username">Username:</label>
+                <br>
+                <input type="text" name="username" id="username" placeholder="Enter a username" required minlength="5" maxlength="10">
+                <br>
+                <label for="password">Password:</label>
+                <br>
+                <input type="password" name="password" id="password" placeholder="Enter a password" required minlength="10" maxlength="15">
+                <br>
+                <label for="email">Email:</label>
+                <br>
+                <input type="email" name="email" id="email" placeholder="Enter an email" required>
+                <br>
+                <p><strong>Personal Information</strong></p>
+                <label for="first-name">First Name:</label>
+                <br>
+                <input type="text" name="first-name" id="first-name" placeholder="Enter your first name">
+                <br>
+                <label for="last-name">Last Name:</label>
+                <br>
+                <input type="text" name="last-name" id="last-name" placeholder="Enter your last name">
+                <br>
+                <label for="gender">Gender:</label>
+                <br>
+                <select name="gender" id="gender">
+                    <option value="">--Select gender--</option>
+                    <option value="male">Male</option>
+                    <option value="female">Female</option>
+                    <option value="other">Other</option>
+                </select>
+                <br>
+                <p><strong>Preferences</strong></p>
+                <label for="email-pref">Emails:</label>
+                <br>
+                <input type="radio" name="email-pref" id="email-pref" value="all" checked><span>All</span>
+                <br>
+                <input type="radio" name="email-pref" id="email-pref" value="important"><span>Important</span>
+                <br>
+                <input type="radio" name="email-pref" id="email-pref" value="none"><span>None</span>
+                <br>
+                <label for="sign-in-pref">Sign In:</label>
+                <br>
+                <input type="checkbox" name="sign-in-pref" id="sign-in-pref" value="stay-signed-in" checked><span>Stay Signed In</span>
+                <br>
+                <input type="checkbox" name="sign-in-pref" id="sign-in-pref" value="remember-username"><span>Remember Username</span>
+                <br>
+                <input type="checkbox" name="sign-in-pref" id="sign-in-pref" value="remember-username-password"><span>Remember Username and Password</span>
+                <br>
+                <p><strong>Extra</strong></p>
+                <label for="comments">Comments:</label>
+                <br>
+                <textarea name="comments" id="comments" cols="25" rows="5" placeholder="Enter any comments" maxlength="200"></textarea>
+                <br>
+                <input type="submit" value="Submit">
+                <input type="reset" value="Cancel">
+            </fieldset>
+        </form>
+    </body>
+</html>
