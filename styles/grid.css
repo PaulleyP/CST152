@@ -1,0 +1,42 @@
+.header {
+	height: 70px;
+	margin-bottom: 20px;
+	background-color: #ff71ce;
+}
+
+.hero {
+	height: 400px;
+	margin-bottom: 20px;
+	background-color: #01cdfe;
+}
+
+.sidebar {
+	height: 800px;
+	margin-bottom: 20px;
+	background-color: #05ffa1;
+}
+
+.main {
+	height: 800px;
+	margin-bottom: 20px;
+	background-color: #b967ff;
+}
+
+.image {
+	height: 253px;
+	margin-bottom: 20px;
+	background-color: #fffb96;
+}
+
+.footer {
+	height: 70px;
+	background-color: #ff5252;
+}
+
+.container_16 p {
+	background-color: inherit;
+	color: #23272a;
+	font-size: 20px;
+	text-align: center;
+	text-transform: uppercase;
+}
