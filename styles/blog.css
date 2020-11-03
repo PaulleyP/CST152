@@ -1,0 +1,91 @@
+img {
+	width: 300px;
+	position: relative;
+	top: 50%;
+	transform: translateY(-50%);
+}
+
+h1 {
+	background-color: inherit;
+}
+
+h4 {
+	background-color: inherit;
+	margin: 5px;
+}
+
+#wrapper {
+	display: grid;
+    grid-template-areas:
+        "header header header"
+        "image1 content1 author1"
+        "image2 content2 author2"
+        "image3 content3 author3"
+        "footer footer footer";
+	gap: 10px;
+}
+
+#header {
+	grid-area: header;
+	text-align: center;
+	background-color: var(--medium-blue);
+}
+
+#content1 {
+	grid-area: content1;
+	border-bottom: 2px solid var(--light-green);
+}
+
+#content2 {
+	grid-area: content2;
+	border-bottom: 2px solid var(--light-green);
+}
+
+#content3 {
+	grid-area: content3;
+	border-bottom: 2px solid var(--light-green);
+}
+
+#image1 {
+	grid-area: image1;
+}
+
+#image2 {
+	grid-area: image2;
+}
+
+#image3 {
+	grid-area: image3;
+}
+
+#author1 {
+	grid-area: author1;
+	border-bottom: 2px solid var(--light-green);
+	border-left: 2px solid var(--light-green);
+	padding: 0 10px 0 10px;
+}
+
+#author2 {
+	grid-area: author2;
+	border-bottom: 2px solid var(--light-green);
+	border-left: 2px solid var(--light-green);
+	padding: 0 10px 0 10px;
+}
+
+#author3 {
+	grid-area: author3;
+	border-bottom: 2px solid var(--light-green);
+	border-left: 2px solid var(--light-green);
+	padding: 0 10px 0 10px;
+}
+
+#footer {
+	grid-area: footer;
+	text-align: center;
+	background-color: var(--medium-blue);
+}
+
+#search {
+	float: right;
+	margin: 20px;
+}
