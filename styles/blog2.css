@@ -1,0 +1,275 @@
+* {
+	background-color: rgb(30, 30, 30);
+	color: rgb(200, 200, 200);
+	font-family: arial, sans-serif;
+	margin: 0;
+	padding: 0;
+}
+
+.header_main {
+	position: fixed;
+	top: 0;
+	left: 0;
+	right: 0;
+	width: 100%;
+	padding: 0 0 25px 0;
+	z-index: 2;
+}
+
+.header_inner {
+	display: flex;
+	justify-content: space-between;
+}
+
+.header_logo a {
+	text-decoration: none;
+}
+
+.header_logo p {
+	font-size: 1.5rem;
+	text-transform: uppercase;
+	margin: 25px 0 0 20px;
+}
+
+.header_nav ul {
+	display: flex;
+	list-style: none;
+	margin: 30px 0 0 0;
+}
+
+.header_nav li {
+	padding: 0 20px 0 0;
+}
+
+.header_nav a {
+	text-decoration: none;
+}
+
+.header_nav_border {
+	border: 1px solid white;
+	border-radius: 5px;
+	text-decoration: none;
+	padding: 5px;
+}
+
+.hero_text {
+	text-align: center;
+	margin: 200px 0 150px 0;
+}
+
+.hero_text h1 {
+	font-size: 4rem;
+	font-weight: normal;
+	text-transform: uppercase;
+	margin: 40px;
+}
+
+.hero_text p {
+	font-size: 1.5rem;
+}
+
+.hero_nav_inner {
+	display: flex;
+	justify-content: space-between;
+	margin: 20px 0 20px 0;
+}
+
+.hero_nav_left ul {
+	display: flex;
+	list-style: none;
+	padding: 0 0 0 15px;
+}
+
+.hero_nav_left li {
+	padding: 0 20px 0 0;
+	font-size: 1.2rem;
+}
+
+.hero_nav_left a {
+	text-decoration: none;
+}
+
+.hero_nav_right ul {
+	display: flex;
+	list-style: none;
+}
+
+.hero_nav_right li {
+	padding: 0 20px 0 0;
+	font-size: 1.2rem;
+}
+
+.hero_nav_right a {
+	text-decoration: none;
+}
+
+.content_main {
+	display: flex;
+	justify-content: center;
+}
+
+.content_inner {
+	display: grid;
+	grid-template-columns: repeat(3, 1fr);
+}
+
+.article_main {
+	margin: 10px;
+	text-decoration: none;
+}
+
+.article_img {
+	width: 100%;
+}
+
+.article_title {
+	font-size: 1.5rem;
+	font-weight: bold;
+	margin: 20px;
+}
+
+.article_description {
+	font-size: 1.2rem;
+	margin: 20px;
+}
+
+.article_author {
+	font-size: 1.2rem;
+	margin: 200px 0 20px 20px;
+}
+
+.page_nav ul {
+	display: flex;
+	list-style: none;
+	padding: 0 0 0 15px;
+	margin: 40px 0 40px 0;
+}
+
+.page_nav li {
+	padding: 0 20px 0 0;
+}
+
+.page_nav a {
+	text-decoration: none;
+	border: 1px solid white;
+	border-radius: 5px;
+	padding: 10px;
+}
+
+.banner_inner {
+	text-align: center;
+	font-size: 2rem;
+	font-weight: bold;
+	text-decoration: underline;
+	margin: 150px 0 150px 0;
+}
+
+.signup_inner {
+	display: flex;
+	justify-content: space-evenly;
+}
+
+.signup_text {
+	font-size: 2rem;
+	text-transform: uppercase;
+	padding: 30px 0 0 0;
+}
+
+.signup {
+	padding: 30px 0 0 0;
+}
+
+.signup input {
+	text-transform: uppercase;
+	border-radius: 5px;
+	padding: 10px;
+}
+
+.signup input[type="email"] {
+	width: 300px;
+}
+
+.footer_nav {
+	margin: 100px;
+}
+
+.footer_nav ul {
+	display: flex;
+	list-style: none;
+	justify-content: center;
+}
+
+.footer_nav li {
+	margin: 0 50px 0 50px;
+}
+
+.footer_nav a {
+	text-decoration: none;
+	text-transform: uppercase;
+	border: 1px solid white;
+	border-radius: 20px;
+	padding: 10px 50px 10px 50px;
+	display: inline-block;
+	width: 200px;
+	text-align: center;
+}
+
+.footer_text {
+	text-align: center;
+	text-transform: uppercase;
+}
+
+.footer_text p {
+	margin: 20px;
+}
+
+.footer_links ul {
+	display: flex;
+	list-style: none;
+	justify-content: center;
+	margin: 100px;
+}
+
+.footer_links li {
+	padding: 0 20px 0 0;
+	font-size: 1.2rem;
+}
+
+.footer_links a {
+	text-decoration: none;
+}
+
+.header_logo p:hover,
+.header_nav a:hover,
+.hero_nav_left a:hover,
+.hero_nav_right a:hover,
+.article_main:hover .article_title,
+.footer_links a:hover {
+	color: goldenrod;
+}
+
+.header_nav_border:hover {
+	color: goldenrod;
+	border: 1px solid goldenrod;
+}
+
+.article_main:hover .article_img {
+	filter: grayscale(100%);
+	z-index: 1;
+}
+
+.article_main:hover,
+.article_main:hover .article_inner,
+.article_main:hover .article_text,
+.article_main:hover .article_title,
+.article_main:hover .article_description,
+.article_main:hover .article_author {
+	background-color: rgb(40, 40, 40);
+}
+
+.page_nav a:hover,
+.signup input[type="submit"]:hover,
+.footer_nav a:hover {
+	color: white;
+	background-color: goldenrod;
+}
