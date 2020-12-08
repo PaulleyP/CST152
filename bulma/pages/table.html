@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en" class="has-background-black-bis">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.1/css/bulma.min.css">
+        <script src="../scripts/nav.js"></script>
+        <title>Table</title>
+    </head>
+    <body class="has-navbar-fixed-top">
+        <nav class="navbar is-fixed-top has-background-black-ter" role="navigation" aria-label="main navigation">
+            <div class="navbar-brand">
+                <p class="navbar-item has-text-primary is-size-5 has-text-weight-semibold">CST152</p>
+                <a role="button" class="navbar-burger burger has-text-light" aria-label="menu" aria-expanded="false" data-target="navbar-toggle">
+                    <span aria-hidden="true"></span>
+                    <span aria-hidden="true"></span>
+                    <span aria-hidden="true"></span>
+                </a>
+            </div>
+            <div class="navbar-menu has-background-black-ter" id="navbar-toggle">
+                <div class="navbar-start">
+                    <a class="navbar-item has-text-light has-background-black-ter" href="home.html">Home</a>
+                    <div class="navbar-item has-dropdown is-hoverable">
+                        <a class="navbar-link has-text-light has-background-black-ter">More</a>
+                        <div class="navbar-dropdown has-background-black-ter">
+                            <a class="navbar-item has-text-light has-background-black-ter" href="resume.html">Assignment #1 - Resume</a>
+                            <a class="navbar-item has-text-light has-background-black-ter" href="resume2.html">Assignment #2 - Resume v2</a>
+                            <a class="navbar-item has-text-light has-background-black-ter" href="table.html">Assignment #4 - Table</a>
+                            <a class="navbar-item has-text-light has-background-black-ter" href="list-and-table.html">Assignment #4.2 - List and table</a>
+                            <a class="navbar-item has-text-light has-background-black-ter" href="images.html">Assignment #5 - Images</a>
+                            <a class="navbar-item has-text-light has-background-black-ter" href="form.html">Assignment #6 - Form</a>
+                            <a class="navbar-item has-text-light has-background-black-ter" href="media.html">Assignment #7 - Media</a>
+                            <a class="navbar-item has-text-light has-background-black-ter" href="nav.html">Assignment #9.2 - Nav</a>
+                            <a class="navbar-item has-text-light has-background-black-ter" href="product-landing-page.html">Assignment #10 - Product landing page</a>
+                            <a class="navbar-item has-text-light has-background-black-ter" href="layout.html">Assignment #11 - Layout</a>
+                            <a class="navbar-item has-text-light has-background-black-ter" href="grid.html">Assignment #11.2 - Grid</a>
+                            <a class="navbar-item has-text-light has-background-black-ter" href="blog.html">Assignment #11.3 - Blog</a>
+                            <a class="navbar-item has-text-light has-background-black-ter" href="blog2.html">Assignment #11.4 - Blog 2</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="navbar-end">
+                    <div class="navbar-item">
+                        <div class="buttons">
+                            <a class="button is-primary" href="https://github.com/PaulleyP/CST152" target="_blank">GitHub</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </nav>
+        <div class="section">
+            <div class="content">
+                <p class="title has-text-primary has-text-centered">Assignment #4 - Table</p>
+                <p class="subtitle has-text-light has-text-centered">Create a table that includes the specified requirements.</p>
+            </div>
+        </div>
+        <hr>
+        <section class="section">
+            <div class="table-container">
+                <table class="table is-bordered is-narrow has-background-black-ter">
+                    <thead>
+                        <tr>
+                            <th colspan="7" class="has-text-centered has-text-primary">Calendar</th>
+                        </tr>
+                        <tr>
+                            <th scope="col" class="has-text-info">Sunday</th>
+                            <th scope="col" class="has-text-info">Monday</th>
+                            <th scope="col" class="has-text-info">Tuesday</th>
+                            <th scope="col" class="has-text-info">Wednesday</th>
+                            <th scope="col" class="has-text-info">Thursday</th>
+                            <th scope="col" class="has-text-info">Friday</th>
+                            <th scope="col" class="has-text-info">Saturday</th>
+                        </tr>
+                    </thead>
+                    <tbody class="has-text-light has-text-centered">
+                        <tr>
+                            <td>1</td>
+                            <td rowspan="5"><a href="#">Class</a></td>
+                            <td>3</td>
+                            <td rowspan="4"><a href="#">Class</a></td>
+                            <td>5</td>
+                            <td>6</td>
+                            <td>7</td>
+                        </tr>
+                        <tr>
+                            <td>8</td>
+                            <td>10</td>
+                            <td>12</td>
+                            <td>13</td>
+                            <td>14</td>
+                        </tr>
+                        <tr>
+                            <td>15</td>
+                            <td>17</td>
+                            <td>19</td>
+                            <td>20</td>
+                            <td>21</td>
+                        </tr>
+                        <tr>
+                            <td>22</td>
+                            <td>24</td>
+                            <td>26</td>
+                            <td>27</td>
+                            <td>28</td>
+                        </tr>
+                        <tr>
+                            <td>29</td>
+                            <td>31</td>
+                            <td colspan="4" class="has-text-info has-text-weight-bold">End of the Month</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </section>
+    </body>
+</html>

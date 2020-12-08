@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en" class="has-background-black-bis">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.1/css/bulma.min.css">
+        <script src="../scripts/nav.js"></script>
+        <title>Product landing page</title>
+    </head>
+    <body class="has-navbar-fixed-top">
+        <nav class="navbar is-fixed-top has-background-black-ter" role="navigation" aria-label="main navigation">
+            <div class="navbar-brand">
+                <p class="navbar-item has-text-primary is-size-5 has-text-weight-semibold">CST152</p>
+                <a role="button" class="navbar-burger burger has-text-light" aria-label="menu" aria-expanded="false" data-target="navbar-toggle">
+                    <span aria-hidden="true"></span>
+                    <span aria-hidden="true"></span>
+                    <span aria-hidden="true"></span>
+                </a>
+            </div>
+            <div class="navbar-menu has-background-black-ter" id="navbar-toggle">
+                <div class="navbar-start">
+                    <a class="navbar-item has-text-light has-background-black-ter" href="home.html">Home</a>
+                    <div class="navbar-item has-dropdown is-hoverable">
+                        <a class="navbar-link has-text-light has-background-black-ter">More</a>
+                        <div class="navbar-dropdown has-background-black-ter">
+                            <a class="navbar-item has-text-light has-background-black-ter" href="resume.html">Assignment #1 - Resume</a>
+                            <a class="navbar-item has-text-light has-background-black-ter" href="resume2.html">Assignment #2 - Resume v2</a>
+                            <a class="navbar-item has-text-light has-background-black-ter" href="table.html">Assignment #4 - Table</a>
+                            <a class="navbar-item has-text-light has-background-black-ter" href="list-and-table.html">Assignment #4.2 - List and table</a>
+                            <a class="navbar-item has-text-light has-background-black-ter" href="images.html">Assignment #5 - Images</a>
+                            <a class="navbar-item has-text-light has-background-black-ter" href="form.html">Assignment #6 - Form</a>
+                            <a class="navbar-item has-text-light has-background-black-ter" href="media.html">Assignment #7 - Media</a>
+                            <a class="navbar-item has-text-light has-background-black-ter" href="nav.html">Assignment #9.2 - Nav</a>
+                            <a class="navbar-item has-text-light has-background-black-ter" href="product-landing-page.html">Assignment #10 - Product landing page</a>
+                            <a class="navbar-item has-text-light has-background-black-ter" href="layout.html">Assignment #11 - Layout</a>
+                            <a class="navbar-item has-text-light has-background-black-ter" href="grid.html">Assignment #11.2 - Grid</a>
+                            <a class="navbar-item has-text-light has-background-black-ter" href="blog.html">Assignment #11.3 - Blog</a>
+                            <a class="navbar-item has-text-light has-background-black-ter" href="blog2.html">Assignment #11.4 - Blog 2</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="navbar-end">
+                    <div class="navbar-item">
+                        <div class="buttons">
+                            <a class="button is-primary" href="https://github.com/PaulleyP/CST152" target="_blank">GitHub</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </nav>
+        <div class="section">
+            <div class="content">
+                <p class="title has-text-primary has-text-centered">Assignment #10 - Product landing page</p>
+                <p class="subtitle has-text-light has-text-centered">Clone the specified product landing page.</p>
+            </div>
+        </div>
+        <hr>
+        <div class="container">
+            <section class="section">
+                <div class="table-container">
+                    <table class="table has-background-black-ter is-bordered">
+                        <tr>
+                            <td>
+                                <img class="mt-1" height="400" width="400"
+                                    src="https://assets.adidas.com/images/h_840,f_auto,q_auto:sensitive,fl_lossy/6d548167db534a53b0d5a9d7012fd22c_9366/Trefoil_Hoodie_Blue_EJ9682_21_model.jpg">
+                            </td>
+                            <td>
+                                <h3 class="has-text-primary is-size-5 has-text-weight-semibold">Best Blue Hoodie</h3>
+                                <div class="has-text-light mt-5">
+                                    <p>
+                                        This hoodie is so blue that you cannot see any red in it! It shows a logo on the front 
+                                        and it keeps you moderately warm in the Connecticut winter.
+                                    </p>
+                                    <div class="control mt-5">
+                                        <label for="color" class="radio has-text-link">
+                                            <input type="radio" name="color" id="color" value="blue"> Blue
+                                        </label>
+                                        <label for="color" class="radio has-text-danger">
+                                            <input type="radio" name="color" id="color" value="red"> Red
+                                        </label>
+                                    </div>
+                                    <hr>
+                                    <div class="control">
+                                        <label for="size" class="radio">
+                                            <input type="radio" name="size" id="size" value="s"> S
+                                        </label>
+                                        <label for="size" class="radio">
+                                            <input type="radio" name="size" id="size" value="m"> M
+                                        </label>
+                                        <label for="size" class="radio">
+                                            <input type="radio" name="size" id="size" value="l"> L
+                                        </label>
+                                        <label for="size" class="radio">
+                                            <input type="radio" name="size" id="size" value="xl"> XL
+                                        </label>
+                                        <div class="container">
+                                            <input  class="button is-success mt-5" type="submit" value="Submit" id="submit">
+                                        </div>
+                                    </div>
+                                </div>
+                            </td>
+                        </tr>
+                    </table>
+                </div>
+            </section>
+        </div>
+    </body>
+</html>

@@ -273,3 +273,127 @@
 	color: white;
 	background-color: goldenrod;
 }
+
+@media only screen and (max-width: 950px) {
+	.signup_inner {
+		flex-direction: column;
+		align-items: center;
+	}
+}
+
+@media only screen and (max-width: 800px) {
+	.header_inner {
+		flex-direction: column;
+		align-items: center;
+	}
+	.header_logo p {
+		font-size: 1rem;
+		margin: 10px 0 10px 0;
+	}
+	.header_nav ul {
+		margin: 0;
+	}
+	.header_main {
+		padding: 0 0 10px 0;
+	}
+}
+
+@media only screen and (max-width: 700px) {
+	.footer_nav ul {
+		flex-direction: column;
+		align-items: center;
+	}
+	.footer_nav li {
+		margin: 10px;
+	}
+	.article_author {
+		margin: 20px;
+	}
+}
+
+@media only screen and (max-width: 570px) {
+	.content_inner {
+		grid-template-columns: repeat(2, 1fr);
+	}
+	.header_logo,
+	.header_nav_border {
+		display: none;
+	}
+	.header_main {
+		padding: 10px 0 10px 0;
+	}
+	.hero_nav_inner {
+		flex-direction: column;
+	}
+	.hero_nav_left ul,
+	.hero_nav_right ul {
+		justify-content: center;
+		margin: 5px;
+	}
+	.footer_links ul {
+		flex-direction: column;
+		align-items: center;
+	}
+	.footer_links li {
+		margin: 5px;
+	}
+}
+
+@media only screen and (max-width: 500px) {
+	.signup_text {
+		text-align: center;
+	}
+	.signup input[type="email"] {
+		width: 200px;
+	}
+	.signup input[type="submit"] {
+		display: flex;
+		margin: 10px auto;
+	}
+}
+
+@media only screen and (max-width: 420px) {
+	.header_inner ul {
+		flex-direction: column;
+		align-items: center;
+	}
+	.header_nav li {
+		padding: 0;
+		width: 100vw;
+		text-align: center;
+	}
+	.header_nav li a:hover {
+		background-color: goldenrod;
+		color: white;
+	}
+	.header_nav a {
+		display: block;
+		padding: 5px;
+	}
+	.header_nav_border {
+		border: none;
+		border-radius: 0;
+		padding: 0;
+	}
+	.header_nav_border:hover {
+		border: none;
+	}
+	.header_main {
+		padding: 0;
+	}
+	.content_inner {
+		grid-template-columns: repeat(1, 1fr);
+	}
+	.hero_text {
+		margin: 100px 0 150px 0;
+	}
+	.header_main {
+		position: relative;
+	}
+}
+
+@media only screen and (max-width: 330px) {
+	.hero_text h1 {
+		font-size: 3rem;
+	}
+}

@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en" class="has-background-black-bis">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.1/css/bulma.min.css">
+        <script src="../scripts/nav.js"></script>
+        <title>List and table</title>
+    </head>
+    <body class="has-navbar-fixed-top">
+        <nav class="navbar is-fixed-top has-background-black-ter" role="navigation" aria-label="main navigation">
+            <div class="navbar-brand">
+                <p class="navbar-item has-text-primary is-size-5 has-text-weight-semibold">CST152</p>
+                <a role="button" class="navbar-burger burger has-text-light" aria-label="menu" aria-expanded="false" data-target="navbar-toggle">
+                    <span aria-hidden="true"></span>
+                    <span aria-hidden="true"></span>
+                    <span aria-hidden="true"></span>
+                </a>
+            </div>
+            <div class="navbar-menu has-background-black-ter" id="navbar-toggle">
+                <div class="navbar-start">
+                    <a class="navbar-item has-text-light has-background-black-ter" href="home.html">Home</a>
+                    <div class="navbar-item has-dropdown is-hoverable">
+                        <a class="navbar-link has-text-light has-background-black-ter">More</a>
+                        <div class="navbar-dropdown has-background-black-ter">
+                            <a class="navbar-item has-text-light has-background-black-ter" href="resume.html">Assignment #1 - Resume</a>
+                            <a class="navbar-item has-text-light has-background-black-ter" href="resume2.html">Assignment #2 - Resume v2</a>
+                            <a class="navbar-item has-text-light has-background-black-ter" href="table.html">Assignment #4 - Table</a>
+                            <a class="navbar-item has-text-light has-background-black-ter" href="list-and-table.html">Assignment #4.2 - List and table</a>
+                            <a class="navbar-item has-text-light has-background-black-ter" href="images.html">Assignment #5 - Images</a>
+                            <a class="navbar-item has-text-light has-background-black-ter" href="form.html">Assignment #6 - Form</a>
+                            <a class="navbar-item has-text-light has-background-black-ter" href="media.html">Assignment #7 - Media</a>
+                            <a class="navbar-item has-text-light has-background-black-ter" href="nav.html">Assignment #9.2 - Nav</a>
+                            <a class="navbar-item has-text-light has-background-black-ter" href="product-landing-page.html">Assignment #10 - Product landing page</a>
+                            <a class="navbar-item has-text-light has-background-black-ter" href="layout.html">Assignment #11 - Layout</a>
+                            <a class="navbar-item has-text-light has-background-black-ter" href="grid.html">Assignment #11.2 - Grid</a>
+                            <a class="navbar-item has-text-light has-background-black-ter" href="blog.html">Assignment #11.3 - Blog</a>
+                            <a class="navbar-item has-text-light has-background-black-ter" href="blog2.html">Assignment #11.4 - Blog 2</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="navbar-end">
+                    <div class="navbar-item">
+                        <div class="buttons">
+                            <a class="button is-primary" href="https://github.com/PaulleyP/CST152" target="_blank">GitHub</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </nav>
+        <div class="section">
+            <div class="content">
+                <p class="title has-text-primary has-text-centered">Assignment #4.2 - List and table</p>
+                <p class="subtitle has-text-light has-text-centered">Clone the specified webpage.</p>
+            </div>
+        </div>
+        <hr>
+        <section class="section">
+            <div class="content">
+                <h3 class="title has-text-primary">Section about links</h3>
+                <p class="has-text-light">Here is a list of the most interesting website with tech news:</p>
+                <ol class="has-text-light">
+                    <li><a href="https://slashdot.org/" target="_blank">Slashdot</a></li>
+                    <li><a href="https://arstechnica.com/" target="_blank">ArsTechnica</a></li>
+                    <li><a href="https://www.theverge.com/" target="_blank">The Verge</a></li>
+                </ol>
+            </div>
+        </section>
+        <hr>
+        <section class="section">
+            <div class="content">
+                <h3 class="title has-text-primary">Section about lists</h3>
+                <p class="has-text-light">My grocery shopping for this week.</p>
+                <ul class="has-text-light">
+                    <li>Milk</li>
+                    <li>Cheese</li>
+                    <ul>
+                        <li>Mozzarella</li>
+                        <li>American</li>
+                    </ul>
+                    <li>Fruits and vegetables</li>
+                    <ul>
+                        <li>Apples</li>
+                        <li>Lemons</li>
+                        <li>Green beans</li>
+                        <li>Broccoli <strong class="has-text-light"><em>(they are good for you!)</em></strong></li>
+                    </ul>
+                    <li>Bread</li>
+                    <li>Ice cream</li>
+                </ul>
+            </div>
+        </section>
+        <hr>
+        <section class="section">
+            <div class="table-container">
+                <h3 class="title has-text-primary">Section about tables</h3>
+                <p class="has-text-light pb-6">The following is a table that uses both the <em>colspan</em> attributes. This technique is very useful when you need to create an invoice.</p>
+                <table class="table is-bordered is-narrow has-background-black-ter">
+                    <thead class="has-text-centered">
+                        <tr>
+                            <th class="has-text-info">Service</th>
+                            <th class="has-text-info"># hours</th>
+                            <th class="has-text-info">Price/hr</th>
+                            <th class="has-text-info">Subtotal</th>
+                        </tr>
+                    </thead>
+                    <tbody class="has-text-light">
+                        <tr>
+                            <td>HTML structure of pages</td>
+                            <td>60</td>
+                            <td>$60</td>
+                            <td>$3,600.00</td>
+                        </tr>
+                        <tr>
+                            <td>Data validation using Javascript</td>
+                            <td>20</td>
+                            <td>$80</td>
+                            <td>$1,600.00</td>
+                        </tr>
+                        <tr>
+                            <td>Deployment into server</td>
+                            <td>4</td>
+                            <td>$80</td>
+                            <td>$320</td>
+                        </tr>
+                    </tbody>
+                    <tfoot>
+                        <tr>
+                            <th colspan="3" class="has-text-info">Subtotal</th>
+                            <td class="has-text-light">$5,520.00</td>
+                        </tr>
+                        <tr>
+                            <th colspan="2" class="has-text-info">Tax</th>
+                            <td class="has-text-light">7%</td>
+                            <td class="has-text-light">$386.40</td>
+                        </tr>
+                        <tr>
+                            <th colspan="3" class="has-text-info">Total</th>
+                            <td class="has-text-light">$5,906.40</td>
+                        </tr>
+                    </tfoot>
+                </table>
+            </div>
+        </section>
+    </body>
+</html>
